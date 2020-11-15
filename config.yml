@@ -1,0 +1,18 @@
+title: Getting started with Go
+description: >-
+  This course will teach you Go programming language with examples with
+  different approaches and sometimes compared with other programming languages.
+template:
+  repo: getting-started-with-go-template
+  name: getting-started-with-go
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
